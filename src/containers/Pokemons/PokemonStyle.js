@@ -14,5 +14,17 @@ export const ContainerChart = styled.div`
 export const WrapperNames = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px
+  grid-auto-rows: 20px;
+  gap: 15px;
 `;
+
+export const Card = styled.div`
+  display: flex;
+  width: 200px;
+  height: 300px;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #D1D1D2
+`;
+
+export const Subtitle = styled
